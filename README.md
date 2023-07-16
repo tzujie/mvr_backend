@@ -2,7 +2,8 @@
 
 ## 注冊帳戶
 
-### URL POST /api/register/
+### URL 
+`POST /api/register/`
 
 
 ### 請求參數
@@ -26,7 +27,8 @@
 
 ## 登錄帳戶
 
-### URL POST /api/login/
+### URL 
+`POST /api/login/`
 
 
 ### 請求參數
@@ -50,7 +52,8 @@
 
 ## 獲取用戶列表
 
-### URL GET /api/accounts/list/?email={email}
+### URL 
+`GET /api/accounts/list/?email={email}`
 
 
 ### Response
