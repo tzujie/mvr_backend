@@ -69,6 +69,6 @@
 - 密碼：102938
   
 ## Runserver
-- python manage.py runserver
+    python manage.py runserver
 - Python 3.8.8
 - Django 4.2.3
