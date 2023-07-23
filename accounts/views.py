@@ -43,3 +43,7 @@ def list_accounts(request):
         accounts = Account.objects.all()
     serializer = CustomAccountSerializer(accounts, many=True)
     return Response(serializer.data, status=200)
+
+from rest_framework_jwt.settings import api_settings
+
+

@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+import datetime
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -42,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'rest_framework',
+    'rest_framework_simplejwt',
     
     
 ]
@@ -52,6 +55,17 @@ REST_FRAMEWORK = {
     'DEFAULT_PARSER_CLASSES': [
         'rest_framework.parsers.JSONParser',
     ],
+     'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        # ...
+    ],
+}
+
+# JWT設定
+JWT_AUTH = {
+    'JWT_SECRET_KEY': 'your-secret-key',
+    'JWT_ALGORITHM': 'HS256',
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=7),  # 設定憑證有效期限
 }
 
 MIDDLEWARE = [
