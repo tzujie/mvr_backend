@@ -3,7 +3,7 @@
 ## 注冊帳戶
 
 ### URL 
-`POST /api/register/`
+`POST https://b084-163-13-201-95.ngrok-free.app/api/login/`
 
 
 ### 請求參數
@@ -30,7 +30,7 @@
 ## 登錄帳戶
 
 ### URL 
-`POST /api/login/`
+`POST https://b084-163-13-201-95.ngrok-free.app/api/login/`
 
 
 ### 請求參數
@@ -55,7 +55,7 @@
 ## 獲取用戶列表
 
 ### URL 
-`GET /api/accounts/list/?email={email}`
+`GET https://b084-163-13-201-95.ngrok-free.app/api/accounts/?email=${encodeURIComponent(userEmail)}`
 
 
 ### Response
