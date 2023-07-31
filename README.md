@@ -3,14 +3,14 @@
 ## 注冊帳戶
 
 ### URL 
-`POST https://b084-163-13-201-95.ngrok-free.app/api/login/`
+`POST https://192e-163-13-201-95.ngrok-free.app/api/login/`
 
 
 ### 請求參數
 
 | 參數名稱  |  描述       |
 | --------- |  ---------- |
-| id        | 用戶名稱   |
+| name        | 用戶名稱   |
 | email     | 用戶信箱   |
 | password  | 用戶密碼   |
 | phone     | 用戶電話   |
@@ -30,7 +30,7 @@
 ## 登錄帳戶
 
 ### URL 
-`POST https://b084-163-13-201-95.ngrok-free.app/api/login/`
+`POST https://192e-163-13-201-95.ngrok-free.app/api/login/`
 
 
 ### 請求參數
@@ -55,7 +55,7 @@
 ## 獲取用戶列表
 
 ### URL 
-`GET https://b084-163-13-201-95.ngrok-free.app/api/accounts/?email=${encodeURIComponent(userEmail)}`
+`GET https://192e-163-13-201-95.ngrok-free.app/api/accounts/?email=${encodeURIComponent(userEmail)}`
 
 
 ### Response
