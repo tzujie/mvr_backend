@@ -24,7 +24,7 @@
 失敗：q
 
 - Status Code：400 Bad Request
-- Response：錯誤訊息的詳細描述
+- Response：錯誤訊息
 
 ## 登錄帳戶
 
@@ -43,11 +43,11 @@
 
 成功：
 - Status Code：200 OK
-- Response：登錄成功的訊息
+- Response：登錄成功
 
 失敗：
 - Status Code：401 Unauthorized
-- Response：登錄失敗的訊息
+- Response：登錄失敗
 
 ## 獲取用戶列表
 
@@ -96,7 +96,7 @@
 失敗：
 
 - Status Code：400 Bad Request
-- Response：錯誤訊息的詳細描述
+- Response：錯誤訊息
 
 ## 獲取角色
 
@@ -109,7 +109,7 @@
 成功：
 
 - Status Code：200 OK
-- Response：角色的詳細資訊
+- Response：角色資訊
 
 失敗：
 
