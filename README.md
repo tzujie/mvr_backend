@@ -43,12 +43,10 @@
 ### Response
 
 成功：
-
 - Status Code：200 OK
 - Response：登錄成功的訊息
 
 失敗：
-
 - Status Code：401 Unauthorized
 - Response：登錄失敗的訊息
 
@@ -75,11 +73,13 @@
 - Python 3.8.8
 - Django 4.2.3
 
-## API 文件
 
-### 創建角色
 
-**URL**: `POST https://192e-163-13-201-95.ngrok-free.app/api/create_character/`
+## 創建角色
+
+**URL**: 
+`POST`
+  https://192e-163-13-201-95.ngrok-free.app/api/create_character/
 
 **請求參數**:
 
@@ -109,9 +109,11 @@
 - Status Code：400 Bad Request
 - Response：錯誤訊息的詳細描述
 
-### 獲取角色
+## 獲取角色
 
-**URL**: `GET https://192e-163-13-201-95.ngrok-free.app/api/get_character/?userId={userId}`
+**URL**: 
+`POST`
+  https://192e-163-13-201-95.ngrok-free.app/api/get_character/?userId={userId}
 
 **Response**:
 
