@@ -21,7 +21,7 @@
 - Status Code：201 Created
 - Response：注冊成功的用戶資訊
 
-失敗：
+失敗：q
 
 - Status Code：400 Bad Request
 - Response：錯誤訊息的詳細描述
