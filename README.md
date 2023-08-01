@@ -5,7 +5,6 @@
 ### URL 
 `POST https://192e-163-13-201-95.ngrok-free.app/api/register/`
 
-
 ### 請求參數
 
 | 參數名稱  |  描述       |
@@ -63,39 +62,29 @@
 - Status Code：200 OK
 - Response：用戶列表資訊，不包括密碼
 
-## Superuser
-
-- 帳號：admin
-- 密碼：102938
-  
-## Runserver
-    python manage.py runserver
-- Python 3.8.8
-- Django 4.2.3
-
 
 
 ## 創建角色
 
 **URL**: 
 `POST`
-  https://192e-163-13-201-95.ngrok-free.app/api/create_character/
+    https://192e-163-13-201-95.ngrok-free.app/api/create_character/
 
 **請求參數**:
 
 | 參數名稱  |  描述       |
 | --------- | ---------- |
-| userId     | 用戶ID  |
-| gender     | 角色性別  |
-| beard     | 角色鬍鬚類型（可以為空） |
-| glasses  | 角色眼鏡類型（可以為空） |
-| hair  | 角色頭髮類型（可以為空） |
-| hands  | 角色手部類型（預設為'HANDS_01_1'） |
-| hat  | 角色帽子類型（可以為空） |
-| head  | 角色頭部類型（預設為'HEAD_01_1'） |
-| pants  | 角色褲子類型（預設為'PANTS_01_1'） |
-| shoes  | 角色鞋子類型（預設為'SHOES_01_1'） |
-| torso  | 角色身體類型（預設為'TORSO_02_3'） |
+| userId     |   |
+| gender     |   |
+| beard     | 可以為空 |
+| glasses  | 可以為空 |
+| hair  | 可以為空 |
+| hands  | 預設為'HANDS_01_1' |
+| hat  | 可以為空 |
+| head  | 預設為'HEAD_01_1' |
+| pants  | 預設為'PANTS_01_1' |
+| shoes  | 預設為'SHOES_01_1' |
+| torso  | 預設為'TORSO_02_3' |
 
 **Response**:
 
@@ -113,7 +102,7 @@
 
 **URL**: 
 `POST`
-  https://192e-163-13-201-95.ngrok-free.app/api/get_character/?userId={userId}
+    https://192e-163-13-201-95.ngrok-free.app/api/get_character/?userId={userId}
 
 **Response**:
 
@@ -126,3 +115,15 @@
 
 - Status Code：404 Not Found
 - Response：角色未找到的訊息
+
+  
+## Superuser
+
+- 帳號：admin
+- 密碼：102938
+  
+## Runserver
+    python manage.py runserver
+- Python 3.8.8
+- Django 4.2.3
+
