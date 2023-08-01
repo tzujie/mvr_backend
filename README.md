@@ -3,7 +3,7 @@
 ## 注冊帳戶
 
 ### URL 
-`POST https://192e-163-13-201-95.ngrok-free.app/api/login/`
+`POST https://192e-163-13-201-95.ngrok-free.app/api/register/`
 
 
 ### 請求參數
