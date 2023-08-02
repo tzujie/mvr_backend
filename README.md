@@ -68,7 +68,7 @@
 
 **URL**: 
 `POST`
-    https://192e-163-13-201-95.ngrok-free.app/api/create_character/
+    https://192e-163-13-201-95.ngrok-free.app/api/update_character/
 
 **請求參數**:
 
@@ -76,7 +76,7 @@
 | --------- | ---------- |
 | userId     |   |
 | gender     |   |
-| beard     | 可以為空 |
+| beard     |女生自動寫入none |
 | glasses  | 可以為空 |
 | hair  | 可以為空 |
 | hands  | 預設為'HANDS_01_1' |
@@ -84,19 +84,15 @@
 | head  | 預設為'HEAD_01_1' |
 | pants  | 預設為'PANTS_01_1' |
 | shoes  | 預設為'SHOES_01_1' |
-| torso  | 預設為'TORSO_02_3' |
+| torso  | 預設為'TORSO_01_1' |
 
 **Response**:
 
 成功：
-
 - Status Code：201 Created
-- Response：創建成功的角色資訊
 
 失敗：
-
 - Status Code：400 Bad Request
-- Response：錯誤訊息
 
 ## 獲取角色
 
@@ -107,15 +103,10 @@
 **Response**:
 
 成功：
-
 - Status Code：200 OK
-- Response：角色資訊
 
 失敗：
-
 - Status Code：404 Not Found
-- Response：角色未找到的訊息
-
   
 ## Superuser
 
