@@ -138,6 +138,7 @@
 **URL**: 
 `POST` 
     https://192e-163-13-201-95.ngrok-free.app/api/update_furniture/{user_id}/
+    
 `{user_id}`替換為實際的用戶ID。
 
 **Response**:
@@ -150,6 +151,7 @@
 **URL**: 
 `GET`
     https://192e-163-13-201-95.ngrok-free.app/api/get_clothing/{user_id}/
+    
 `{user_id}`替換為實際的用戶ID。
 
 **Response**:
@@ -162,6 +164,7 @@
 **URL**: 
 `GET` 
     https://192e-163-13-201-95.ngrok-free.app/api/get_instruments/{user_id}/
+    
 `{user_id}`替換為實際的用戶ID。
 
 **Response**:
@@ -174,6 +177,7 @@
 **URL**: 
 `GET` 
     https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
+    
 `{user_id}`替換為實際的用戶ID。
 
 **Response**:
