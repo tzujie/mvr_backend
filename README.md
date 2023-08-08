@@ -107,7 +107,76 @@
 
 失敗：
 - Status Code：404 Not Found
-  
+
+## 更新服裝
+
+**URL**: 
+`POST` 
+    https://192e-163-13-201-95.ngrok-free.app/api/update_clothing/{user_id}/`
+{user_id}`替換為實際的用戶ID。
+
+**Response**:
+
+- 成功：Status Code：200 OK, Response Body: `{"message": "Clothing data updated successfully"}`
+- 失敗：Status Code：400 Bad Request, Response Body: `{"message": "Invalid id"}`
+
+## 更新樂器
+
+**URL**: 
+`POST https://192e-163-13-201-95.ngrok-free.app/api/update_instruments/{user_id}/`
+`{user_id}`替換為實際的用戶ID。
+
+**Response**:
+
+- 成功：Status Code：200 OK, Response Body: `{"message": "Musical instruments data updated successfully"}`
+- 失敗：Status Code：400 Bad Request, Response Body: `{"message": "Invalid id"}`
+
+## 更新家具
+
+**URL**: 
+`POST https://192e-163-13-201-95.ngrok-free.app/api/update_furniture/{user_id}/`
+`{user_id}`替換為實際的用戶ID。
+
+**Response**:
+
+- 成功：Status Code：200 OK, Response Body: `{"message": "Furniture data updated successfully"}`
+- 失敗：Status Code：400 Bad Request, Response Body: `{"message": "Invalid id"}`
+
+## 獲取服裝
+
+**URL**: 
+`GET https://192e-163-13-201-95.ngrok-free.app/api/get_clothing/{user_id}/`
+`{user_id}`替換為實際的用戶ID。
+
+**Response**:
+
+- 成功：Status Code：200 OK, Response Body: JSON array of clothing items
+- 失敗：Status Code：404 Not Found, Response Body: `{"message": "Invalid id"}`
+
+## 獲取樂器
+
+**URL**: 
+`GET https://192e-163-13-201-95.ngrok-free.app/api/get_instruments/{user_id}/`
+`{user_id}`替換為實際的用戶ID。
+
+**Response**:
+
+- 成功：Status Code：200 OK, Response Body: JSON array of musical instruments
+- 失敗：Status Code：404 Not Found, Response Body: `{"message": "Invalid id"}`
+
+## 獲取家具
+
+**URL**: 
+`GET https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/`
+`{user_id}`替換為實際的用戶ID。
+
+**Response**:
+
+- 成功：Status Code：200 OK, Response Body: JSON array of furniture
+- 失敗：Status Code：404 Not Found, Response Body: `{"message": "Invalid id"}`
+
+
+
 ## Superuser
 
 - 帳號：admin
