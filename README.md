@@ -113,6 +113,7 @@
 **URL**: 
 `POST` 
     https://192e-163-13-201-95.ngrok-free.app/api/update_clothing/{user_id}/
+    
 `{user_id}`替換為實際的用戶ID。
 
 **Response**:
