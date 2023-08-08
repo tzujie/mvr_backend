@@ -21,7 +21,7 @@
 - Status Code：201 Created
 - Response：注冊成功的用戶資訊
 
-失敗：q
+失敗：
 
 - Status Code：400 Bad Request
 - Response：錯誤訊息
@@ -125,7 +125,8 @@
 **URL**: 
 `POST` 
     https://192e-163-13-201-95.ngrok-free.app/api/update_instruments/{user_id}/
-{user_id}替換為實際的用戶ID。
+
+`{user_id}`替換為實際的用戶ID。
 
 **Response**:
 
