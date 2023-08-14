@@ -181,7 +181,6 @@
     
 
 
-
 ## 更新帳戶金錢
 `PATCH` 
     https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
