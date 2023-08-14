@@ -179,6 +179,13 @@
 `GET` 
     https://192e-163-13-201-95.ngrok-free.app/api/update_money/
     
+
+
+
+## 更新帳戶金錢
+`PATCH` 
+    https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
+    
 **Request Body**:
 {
     "id": "<ID>",
@@ -196,10 +203,6 @@
     "message": "<Error_Message>"
 }
 
-
-## 更新帳戶金錢
-`PATCH` 
-    https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
 ## Superuser
 
 - 帳號：admin
