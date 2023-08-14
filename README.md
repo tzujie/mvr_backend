@@ -177,17 +177,29 @@
 
 **URL**: 
 `GET` 
-    https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
+    https://192e-163-13-201-95.ngrok-free.app/api/update_money/
     
-`{user_id}`替換為實際的用戶ID。
+**Request Body**:
+{
+    "id": "<ID>",
+    "money": "<Amount>"
+}
 
 **Response**:
 
-- 成功：Status Code：200 OK, Response Body: JSON array of furniture
-- 失敗：Status Code：404 Not Found, Response Body: `{"message": "Invalid id"}`
+- 成功：Status Code：200 OK, Response Body: {
+    "message": "Money updated successfully.",
+    "current_money": "<Updated_Amount>"
+}
+
+- 失敗：Status Code：404 Not Found, Response Body: {
+    "message": "<Error_Message>"
+}
 
 
-
+## 更新帳戶金錢
+`PATCH` 
+    https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
 ## Superuser
 
 - 帳號：admin
