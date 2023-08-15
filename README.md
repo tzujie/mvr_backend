@@ -177,19 +177,21 @@
 
 **URL**: 
 `GET` 
-    https://192e-163-13-201-95.ngrok-free.app/api/update_money/
+    https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
     
-
+    
 
 ## 更新帳戶金錢
 `PATCH` 
-    https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
+    https://192e-163-13-201-95.ngrok-free.app/api/update_money/
     
 **Request Body**:
+```json
 {
     "id": "<ID>",
     "money": "<Amount>"
 }
+```
 
 **Response**:
 
@@ -201,6 +203,11 @@
 - 失敗：Status Code：404 Not Found, Response Body: {
     "message": "<Error_Message>"
 }
+
+## 取得帳戶金錢
+`GET` 
+    https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
+`{user_id}`替換為實際的用戶ID。
 
 ## Superuser
 
