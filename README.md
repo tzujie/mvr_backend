@@ -194,19 +194,25 @@
 ```
 
 **Response**:
-
-- 成功：Status Code：200 OK, Response Body: {
+- 成功：Status Code：200 OK,
+- Response Body: {
     "message": "Money updated successfully.",
     "current_money": "<Updated_Amount>"
 }
 
-- 失敗：Status Code：404 Not Found, Response Body: {
+- 失敗：Status Code：404 Not Found,
+- Response Body: {
     "message": "<Error_Message>"
 }
 
 ## 取得帳戶金錢
 `GET` 
     https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
+`{user_id}`替換為實際的用戶ID。
+
+## 取得登入次數
+`GET` 
+    https://192e-163-13-201-95.ngrok-free.app/api/get_login_count/{user_id}/
 `{user_id}`替換為實際的用戶ID。
 
 ## Superuser
