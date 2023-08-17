@@ -209,7 +209,7 @@
 ## 取得帳戶金錢
 **URL**:
 `GET` 
-    https://192e-163-13-201-95.ngrok-free.app/api/get_furniture/{user_id}/
+    https://192e-163-13-201-95.ngrok-free.app/api/get_money/{user_id}/
     
 `{user_id}`替換為實際的用戶ID。
 
